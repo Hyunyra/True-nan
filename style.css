@@ -1,0 +1,267 @@
+*,
+html{
+  padding : 0;
+  margin : 0;
+}
+
+/* BAGIAN ATAS HOME */
+
+/* Reset some default styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Styling untuk header */
+header {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.bagian-atas-home{
+    width : 100% ;
+    background-color: lightblue;
+    height : 22vh;
+    box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+  -webkit-box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+  -moz-box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+  text-align: center;
+  color: black;
+  }
+
+  .ul-bagian-atas-home{
+    display : flex;
+    height : 60px;
+    justify-content : center;
+    align-items: center;
+    padding : 20px;
+  }
+  
+  .li-bagian-atas-home{
+    padding : 10px;
+    margin : 15px;
+    font-size: 30px;
+    list-style-type: none;
+    align-items: center;
+  }
+  
+  .li-bagian-atas-home:hover{
+    background-color: rgb(177, 160, 160);
+    transition: .5s ease-in-out ;
+    transition-delay: .3s;
+    border-radius: 8px;
+  }
+  
+  .a-bagian-atas-home{
+    color : black;
+    text-decoration: none;
+  }
+  
+  header {
+    height: 50vh; /* Tinggi default */
+    background-color: lightblue; /* Contoh warna latar belakang */
+}
+
+.breadcrumb {
+  padding: 10px 0; /* Menambah padding */
+  width: 100%;
+  background-color: #f9f9f9; /* Warna latar belakang yang lembut */
+  border-radius: 5px;
+   /* Menambah radius */
+}
+
+.breadcrumb a {
+  color: #007BFF; /* Warna tautan biru */
+  text-decoration: none; /* Menghapus garis bawah */
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline; /* Garis bawah saat hover */
+}
+
+.breadcrumb span {
+  margin: 0 5px; /* Menambah margin */
+}
+/* BAGIAN ATAS HOME SELESAI  */
+
+/* BAGIAN ISI HOME  */
+
+.bagian-isi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height : 80vh;
+}
+
+.a-gambar{
+ width: 450px;
+ height: 350px;
+ background-color: white;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ border-radius: 20px;
+ flex-direction: column;
+ text-decoration: none;
+ color : black ;
+ 
+ font-size: 20px;
+ box-shadow: -2px 7px 57px 19px rgba(0,0,0,0.97);
+ -webkit-box-shadow: -2px 7px 57px 19px rgba(0,0,0,0.97);
+ -moz-box-shadow: -2px 7px 57px 19px rgba(0,0,0,0.97);
+}
+
+
+/* BAGIAN PROFIL ANGGOTA */
+.bagian-profil {
+  display: flex; /* Menggunakan flexbox untuk tata letak */
+  flex-wrap: wrap; /* Membungkus elemen jika tidak muat dalam satu baris */
+  justify-content: space-around; /* Meratakan item secara horizontal dengan ruang di antara mereka */
+  padding: 20px; /* Menambahkan padding di sekitar kontainer */
+}
+
+.ul-bagian-profil {
+  padding: 0; /* Menghilangkan padding default */
+  margin: 0; /* Menghilangkan margin default */
+  display: flex; /* Menggunakan flexbox untuk tata letak */
+  flex-wrap: wrap; /* Membungkus elemen jika tidak muat dalam satu baris */
+  justify-content: space-around; /* Meratakan item secara horizontal */
+  width: 100%; /* Mengatur lebar penuh untuk daftar */
+}
+
+.li-bagian-profil {
+  list-style-type: none; /* Menghilangkan bullet pada list */
+  margin: 0; /* Mengurangi margin di sekitar elemen */
+  padding: 15px; /* Mengurangi padding di dalam elemen */
+  border: 3px solid #ccc; /* Menambahkan border */
+  border-radius: 8px; /* Membuat sudut border menjadi bulat */
+  display: flex; /* Menggunakan flexbox untuk tata letak */
+  flex-direction: column; /* Mengatur arah flex menjadi kolom */
+  align-items: center; /* Menyelaraskan item secara horizontal */
+  background-color: #f9f9f9; /* Warna latar belakang */
+  width: 230px; /* Mengatur lebar tetap untuk setiap profil */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk efek */
+}
+
+.li-bagian-profil img {
+  width: 150px; /* Meningkatkan lebar gambar */
+  height: 150px; /* Meningkatkan tinggi gambar */
+  border-radius: 8px; /* Membuat sudut gambar menjadi bulat */
+  margin-bottom: 10px; /* Mengurangi jarak di bawah gambar */
+  border: 3px solid #0077b5; /* Meningkatkan ketebalan border pada gambar */
+  object-fit: cover; /*Memastikan gambar terisi dengan baik dalam kontainer */
+}
+
+
+.profil-info {
+  text-align: center; /* Menyelaraskan teks di tengah */
+}
+
+.profil-info h2 {
+  font-size: 22px; /* Ukuran font untuk nama lebih besar */
+  margin: 5px 0; /* Menambahkan margin atas dan bawah */
+  color: #333; /* Warna teks untuk nama */
+  font-weight: bold; /* Membuat nama lebih tebal */
+}
+
+.profil-info p {
+  font-size: 16px; /* Ukuran font untuk deskripsi lebih besar */
+  color: #666; /* Warna teks deskripsi */
+  line-height: 1.5; /* Jarak antar baris untuk deskripsi */
+  margin: 5px 0; /* Menambahkan margin atas dan bawah */
+}
+
+.ig-link {
+  text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+  color: #0077b5; /* Warna teks tautan */
+  font-weight: bold; /* Membuat teks tautan menjadi tebal */
+  margin-top: 5px; /* Mengurangi jarak di atas tautan */
+  transition: color 0.3s; /* Menambahkan efek transisi pada warna */
+}
+
+.ig-link:hover {
+  color: #005582; /* Mengubah warna saat hover */
+}
+
+/* BAGIAN FOOTER PROJECT */
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 10px 0;
+  font-size: 0.9em;
+}
+
+.footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Untuk layar di bawah 768px (Tablet) */
+@media (max-width: 768px) {
+  .bagian-atas-home {
+    height: 15vh;
+    box-shadow: none; /* Hilangkan shadow agar lebih bersih di layar kecil */
+  }
+
+  .ul-bagian-atas-home {
+    flex-direction: column; /* Susun menu secara vertikal */
+    padding: 10px;
+  }
+
+  .li-bagian-atas-home {
+    font-size: 20px; /* Kurangi ukuran font */
+    margin: 10px 0; /* Tambahkan margin antar item */
+  }
+
+  .bagian-isi {
+    flex-direction: column; /* Susun konten secara vertikal */
+    height: auto;
+    padding: 20px;
+  }
+
+  .a-gambar {
+    width: 300px; /* Sesuaikan ukuran kartu */
+    height: auto;
+    font-size: 16px; /* Kurangi ukuran font */
+  }
+}
+
+/* Untuk layar di bawah 480px (Ponsel) */
+@media (max-width: 480px) {
+  header {
+    height: 30vh; /* Kurangi tinggi header */
+  }
+
+  .ul-bagian-atas-home {
+    padding: 5px;
+  }
+
+  .li-bagian-atas-home {
+    font-size: 16px; /* Ukuran font lebih kecil */
+  }
+
+  .a-gambar {
+    width: 250px;
+    padding: 10px;
+  }
+
+  .footer {
+    font-size: 0.8em; /* Kurangi ukuran teks footer */
+  }
+}
